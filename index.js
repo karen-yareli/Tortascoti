@@ -11,7 +11,7 @@ app.get('/otra-ruta', (req, res) =>{
   res.send('Espero te guste mi app')
 })
 
-app.get('/menu', (req, res) =>{
+app.get('/cliente', (req, res) =>{
   res.send('saludos')
 })
 
