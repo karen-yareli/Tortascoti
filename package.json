@@ -1,0 +1,25 @@
+{
+  "name": "joyer",
+  "version": "1.0.0",
+  "description": "Mi aplicacion web en itesco",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karen-yareli/joyer.git"
+  },
+  "keywords": [],
+  "author": "karen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karen-yareli/joyer/issues"
+  },
+  "homepage": "https://github.com/karen-yareli/joyer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
