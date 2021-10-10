@@ -38,16 +38,4 @@ router.get('/filter', (req, res) => {
     )
 })
 
-router.get('/filter', (req, res) => {
-  res.json(
-    {
-      Categoria: 'papas',
-    },
-    {
-     especialidad  : 'francesas',
-      Precio: 45
-    }
-    )
-})
-
 module.exports = router
